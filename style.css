@@ -1,0 +1,21 @@
+/* Navigation START -------------- */
+
+.nav-list {
+    list-style: none;
+    
+}
+
+.nav-item {
+    display: inline-block; 
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Navigation END ----------- */
+
