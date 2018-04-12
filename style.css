@@ -23,8 +23,42 @@
 a {
     text-decoration: none;
 }
-
-
-
 /*Navigation END ----------- */
 
+.body {
+  text-align: center;
+}
+
+.suspect-home {
+ text-align: center;
+ border: 1px solid black;
+ width: 850px;
+ height: 400px;
+ margin: 0 auto;
+}
+
+#suspect-name {
+
+}
+
+#suspect-img {
+   
+}
+
+#suspect-descr {
+    
+}
+
+.Aldrich {
+    font-family: 'Aldrich', sans-serif;
+}
+
+.Yrsa {
+    font-family: 'Yrsa', sans-serif;
+}
+
+.img-size {
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+}
