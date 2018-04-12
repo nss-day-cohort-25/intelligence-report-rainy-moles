@@ -5,6 +5,7 @@
 .nav-bar {
     display: flex;
     justify-content: center;
+    background-color: #D1D3D5;
 }
 
 .nav-list {
@@ -37,16 +38,9 @@ a {
  margin: 0 auto;
 }
 
-#suspect-name {
-
-}
-
-#suspect-img {
-   
-}
-
-#suspect-descr {
-    
+.descr {
+ margin-left: 100px;
+ margin-right: 100px;
 }
 
 .Aldrich {
@@ -62,3 +56,11 @@ a {
     width: 350px;
     border: 1px solid black;
 }
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: #D1D3D5;
+}
+
+
