@@ -1,11 +1,15 @@
 
-
+body {
+    background-color: #D1D3D5;
+}
 
 /* Navigation START -------------- */
 .nav-bar {
     display: flex;
     justify-content: center;
-    background-color: #D1D3D5;
+    background-color: #616567;
+    border-style: ridge;
+    margin-bottom: 20px;
 }
 
 .nav-list {
@@ -19,23 +23,32 @@
     font-size: 20px;
     font-weight: bold;
     font-family: 'Orbitron', sans-serif;
+    
 }
 
 a {
     text-decoration: none;
+    color: #8AC2DF;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
 }
 /*Navigation END ----------- */
 
 .body {
     text-align: center;
+
   }
   
   .suspect-home {
    text-align: center;
-   border: 1px solid black;
-   width: 850px;
-   height: 400px;
+   width: 650px;
+   height: 420px;
    margin: 0 auto;
+   border-style: inset;
+   background-color: #F8F1E9;
   }
   
   .descr {
@@ -51,6 +64,9 @@ a {
       font-family: 'Yrsa', sans-serif;
   }
   
+  .suspect-img {
+      border-style: double;
+  }
   .img-size {
       height: 350px;
       width: 350px;
