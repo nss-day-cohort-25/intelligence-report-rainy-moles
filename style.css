@@ -26,6 +26,37 @@ a {
 }
 /*Navigation END ----------- */
 
+.body {
+    text-align: center;
+  }
+  
+  .suspect-home {
+   text-align: center;
+   border: 1px solid black;
+   width: 850px;
+   height: 400px;
+   margin: 0 auto;
+  }
+  
+  .descr {
+   margin-left: 100px;
+   margin-right: 100px;
+  }
+  
+  .Aldrich {
+      font-family: 'Aldrich', sans-serif;
+  }
+  
+  .Yrsa {
+      font-family: 'Yrsa', sans-serif;
+  }
+  
+  .img-size {
+      height: 350px;
+      width: 350px;
+      border: 1px solid black;
+  }
+
 /* Rap sheet START -------------- */
 
 .rap-h1{
@@ -67,34 +98,49 @@ a {
 
 /*Rap -sheet END ----------- */
 
-.body {
-  text-align: center;
+
+/* Newsfeed css */
+.jsimage {
+    width: 100%;
+    display: block;
 }
 
-.suspect-home {
- text-align: center;
- border: 1px solid black;
- width: 850px;
- height: 400px;
- margin: 0 auto;
+.articlediv {
+    display: inline-block;
+    width: 33%;
+    padding: 60px;
+    box-sizing: border-box;
 }
 
-.descr {
- margin-left: 100px;
- margin-right: 100px;
+.newsarticle {
+    font-size: 20px;
+    font-weight: 900;
 }
 
-.Aldrich {
-    font-family: 'Aldrich', sans-serif;
+.ulnews li {
+    list-style: none;
+    font-weight: 700;
+    border-bottom: 3px solid rgba(209,211,213);
 }
 
-.Yrsa {
-    font-family: 'Yrsa', sans-serif;
+.ulnews {
+    padding-left: 0;
 }
 
-.img-size {
-    height: 350px;
-    width: 350px;
-    border: 1px solid black;
+.currentnews {
+    text-align: center;
 }
 
+/* Newsfeed css */
+
+/* Financials */
+
+.flex-span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hl-span {
+    margin: 20px;
+}
