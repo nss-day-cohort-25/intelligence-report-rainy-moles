@@ -23,8 +23,45 @@
 a {
     text-decoration: none;
 }
-
-
-
 /*Navigation END ----------- */
 
+/* Rap sheet START -------------- */
+
+.rap-h1{
+    text-align: center;
+}
+#alleged-crimes{
+    float:left;
+    width:50%;
+    margin:-10px;
+}
+#convictions{
+    width: 50%;
+    float: left;
+    clear: both;
+}
+#prisons{
+    float: right;
+    width: 50%;
+}
+#victims{
+    width: 50%;
+    float: left;
+    clear: both;
+}
+#cartelImage{
+    float:right;
+    width: 50%;
+    height: 400px;
+}
+
+#salvador{
+    float:right;
+    width: 50%;
+    height: 200px;
+}
+#rap-sheet ul{
+    list-style: none;
+}
+
+/*Rap -sheet END ----------- */
