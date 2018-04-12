@@ -4,9 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|Orbitron|Yrsa" rel="stylesheet">
+
+    <style>
+        img {
+            width: 100%;
+            display: block;
+        }
+
+        .articlediv {
+            display: inline-block;
+            width: 33%;
+            padding: 60px;
+            box-sizing: border-box;
+        }
+
+        a {
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+        .ulnews li {
+            list-style: none;
+            font-weight: 700;
+        }
+
+        .ulnews {
+            padding-left: 0;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -31,35 +61,95 @@
         </div>
     </header>
     <section>
-            <h2>News Feed</h2>
+        <h1>Current News</h1>
         <article>
-            <span>         
-                    <img class="image" src="https://pikapvs.files.wordpress.com/2012/05/195x312_3219571.jpg?w=645">      
-                    <a href="https://www.dailynews.com/2010/08/23/4-decapitated-bodies-hung-from-bridge-in-mexico/">Daily News</a>
-             </span>     
-             <span>
-                    <img class="image" src="https://justiceinmexico.org/wp-content/uploads/2015/10/la-barbie.jpg">
-                    <a href="https://www.nytimes.com/2010/09/09/us/09barbie.html">NY Times</a>
-            </span>
-            <span>
-                    <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHA6_gJfLQBNZ_eLkayxgm4Qoe18_WlJN5k1aFNrYaSi6jbC6z">
-                    <a href="https://www.cnn.com/2012/01/15/world/mexico-drug-war-essay/index.html">CNN</a>
-            </span>
-            <span>
-                    <img class="image" src="">
-                    <a href="https://www.rollingstone.com/culture/news/an-american-drug-lord-in-acapulco-20110825">Rolling Stones</a>
-            </span>
-            <span>
-                    <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBZHgOF651fbMtapeVsj2XTip7V3yP3slEF9XTYa8G7BErucsn">
-                    <a href="https://en.wikipedia.org/wiki/Edgar_Valdez_Villarreal">Wiki</a>
-            </span>
-            <span>
-                    <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNG765NUEHeDNOW_FsZbluERIyfJvVHNnmJZ9bJeobxUQK9-zzkw">
-                    <a href="http://articles.latimes.com/2005/jun/10/world/fg-chief10">LA Times</a>
-            </span>
+            <div class="articlediv">
+                <img class="newsimage" src="img/bodybag.jpg">
+                <a target="_blank" href="https://www.dailynews.com/2010/08/23/4-decapitated-bodies-hung-from-bridge-in-mexico/">Daily News</a>
+                <div class="article-container">
+                    <ul class="ulnews">
+                        <li>Date: August 28, 2017</li>
+                        <li>Location: Cuernavaca, Mexico</li>
+                        <li>Event: Decapitation</li>
+                        <li>4 Victims</li>
+                        <li>0 Witnesses</li>
+                        <li>Law Enforcement: Cuernavaca Police</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="articlediv">
+                <img class="newsimage" src="img/la-barbie.jpg">
+                <a target="_blank" href="https://www.nytimes.com/2010/09/09/us/09barbie.html">NY Times</a>
+                <div class="article-container">
+                    <ul class="ulnews">
+                        <li>Date: September 8, 2010</li>
+                        <li>Location: Laredo, TX</li>
+                        <li>Event: Capture of Valdez</li>
+                        <li>Victims: 0</li>
+                        <li>Witnesses: 100</li>
+                        <li>Law Enforcement: Mexico police</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="articlediv">
+                <img class="newsimage" src="img/house.jpeg">
+                <a target="_blank" href="https://www.cnn.com/2012/01/15/world/mexico-drug-war-essay/index.html">CNN</a>
+                <div class="article-container">
+                    <ul class="ulnews">
+                        <li>Date: January 20, 2012</li>
+                        <li>Location: US & Mexico</li>
+                        <li>Event: Drug War</li>
+                        <li>Victims: 48,000</li>
+                        <li>Witnesses: 0</li>
+                        <li>Law Enforcement: US & Mexico</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="articlediv">
+                <img class="newsimage" src="img/bagged_cocaine.jpg">
+                <a target="_blank" href="https://www.rollingstone.com/culture/news/an-american-drug-lord-in-acapulco-20110825">Rolling Stones</a>
+                <div class="article-container">
+                    <ul class="ulnews">
+                        <li>Date: August 25, 2011</li>
+                        <li>Location: Acapulco, Mexico</li>
+                        <li>Event: Mexican Cartels takies Acapulco</li>
+                        <li>Victims: 7</li>
+                        <li>Witnesses: 30</li>
+                        <li>Law Enforcement: None</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="articlediv">
+                <img class="newsimage" src="img/crimescenetape.jpg">
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Edgar_Valdez_Villarreal">Wiki</a>
+                <div class="article-container">
+                    <ul class="ulnews">
+                        <li>Date: January 3, 2016</li>
+                        <li>Location: LA</li>
+                        <li>Event: Background & Movie rights</li>
+                        <li>Victims: 23</li>
+                        <li>Witnesses: 0</li>
+                        <li>Law Enforcement: None</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="articlediv">
+                <img class="newsimage" src="img/mug-shot.jpg">
+                <a target="_blank" href="http://articles.latimes.com/2005/jun/10/world/fg-chief10">LA Times</a>
+                <div class="article-container">
+                    <ul class="ulnews">
+                        <li>Date: June 10, 205</li>
+                        <li>Location: Mexico City</li>
+                        <li>Event: Mexican Police Chief Killed on First Day</li>
+                        <li>Victims: 1</li>
+                        <li>Witnesses: 0</li>
+                        <li>Law Enforcement: Mexican Police</li>
+                    </ul>
+                </div>
+            </div>
         </article>
     </section>
 </body>
-<footer></footer>
+<footer class="footer"> &copy; Copyright 2018, Rainy Moles Corporation</footer>
 
 </html>
