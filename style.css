@@ -2,6 +2,27 @@
 body {
     background-color: #D1D3D5;
 }
+/*--FONTS--*/
+.Aldrich {
+    font-family: 'Aldrich', sans-serif;
+}
+
+.Yrsa {
+    font-family: 'Yrsa', sans-serif;
+}
+.Geo {
+  font-family: 'Geo', sans-serif;
+}
+.Obitron {
+    font-family: 'Orbitron', sans-serif;
+}
+.Danger {
+    color: red;
+}
+.Green {
+    color: green;
+}
+/*--FONTS END--*/
 
 /* Navigation START -------------- */
 .nav-bar {
@@ -46,28 +67,26 @@ li a:hover {
   .suspect-home {
    text-align: center;
    width: 650px;
-   height: 420px;
+   height: 600px;
    margin: 0 auto;
    border-style: inset;
    background-color: #F8F1E9;
   }
   
+  .country {
+      margin: 0;
+      padding: 0;
+      font-family: 'Jockey One', sans-serif;
+  }
   .descr {
    margin-left: 100px;
    margin-right: 100px;
   }
-  
-  .Aldrich {
-      font-family: 'Aldrich', sans-serif;
-  }
-  
-  .Yrsa {
-      font-family: 'Yrsa', sans-serif;
-  }
-  
+
   .suspect-img {
-      border-style: double;
-  }
+    border-style: double;
+}
+
   /*---Profile Summary End ---*/
   /*---Associates----*/
   .img-size {
