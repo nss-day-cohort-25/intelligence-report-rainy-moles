@@ -251,3 +251,7 @@ li a:hover {
     border: 1px solid black;
     margin: auto;
 }
+
+.linkcolor {
+    color: blue;
+}
