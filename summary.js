@@ -4,7 +4,7 @@ const buildSummary = () => {
 
     const container =  document.createElement('section')
                    container.classList.add("suspect-home")
-                   test.appendChild(container)
+                  
 
     const dangerous = document.createElement("h1")
                    dangerous.classList.add("Danger")
@@ -37,12 +37,71 @@ const buildSummary = () => {
                     container.appendChild(alias)
 
       const description = document.createElement('p')
-                          description.classList.add("descr Aldrich")
+                          description.classList = "descr Aldrich"
                           description.textContent = rainyMolesDatabase.summary[0].Description
                           container.appendChild(description)
+
+                          document.querySelector("#test").appendChild(container)
+
+
+
+                          
+// -----------------------
+const titleDiv = document.createElement("div")
+              titleDiv.classList = "associate-title"
+const title = document.createElement("h2")
+              title.classList = "a-title Yrsa"
+              titleDiv.appendChild(title)
+document.querySelector("#test").appendChild(titleDiv)
+
+//-------------------------------------
+
+
+ const containerTwo = document.createElement('div')
+                      containerTwo.classList = "associates"
+                      
+
+
+
+  }
+  document.querySelector("#test").appendChild(containerTwo)
 }
+
+
 
 
 buildSummary()    
      
      
+
+
+
+
+//  for (let associate in rainyMolesDatabase.summary[1]) {
+//        console.log("hello", associate)
+//     const associateDiv = document.createElement("div")
+//         associateDiv.classList = "dropdown"
+                       
+//     const associateSpan = document.createElement("span")
+//     const associateImage = document.createElement("img")
+//       associateImage.src = associate.Image 
+//          associateSpan.appendChild(associateImage)
+
+//                             associateSpan.classList = "img-size"
+//                             associateDiv.appendChild(associateSpan)
+
+//     const dropDownDiv = document.createElement('div')
+//                         dropDownDiv.classList = "dropdown-content"
+//                         associateDiv.appendChild(dropDownDiv)
+    
+//     const associateName = document.createElement("h2")
+//                         associateName.classList = "ssoc-name Yrsa"
+//                         associateName.textContent = associate.Name
+//                         dropDownDiv.appendChild(associateName)
+//     const associateDescription = document.createElement("p")
+//                                 associateDescription.classList = "ssoc-name Yrsa"
+//                                 associateDescription.textContent = associate.Description
+//                                 dropDownDiv.appendChild(associateDescription)
+//                                 associateDiv.appendChild(dropDownDiv)
+//         containerTwo.appendChild(associateDiv)
+
