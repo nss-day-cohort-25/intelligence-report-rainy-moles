@@ -33,3 +33,48 @@ rainyMolesDatabase.summary.push(
                  }]              
 }
 )  
+
+rainyMolesDatabase.financialInterests.push({
+    bankAccounts: [
+        {
+            name: "Bank of America",
+            link: "https://www.bankofamerica.com/"
+        },
+        {
+            name: "Charles Schwab",
+            link: "https://www.schwab.com/"
+        },
+        {
+            name: "Fidelity",
+            link: "https://www.fidelity.com/"
+    }],
+    businesses: [{
+        bus1: "Drugs Drugs Drugs, Inc.",
+        bus2: "I Heart Cocaine, LLC.",
+        bus3: "Coke and Friends, LP."
+    }],
+    laundering: [{
+        laund1: "Life Dry Cleaners",
+        laund2: "Stitch and Co. Tailoring Company",
+        laund3: "Drake Motel"
+    }],
+    blackmail: [{
+            img: "https://upload.wikimedia.org/wikipedia/commons/7/73/Chuck_Rosenberg.jpg",
+            name: "Chuck Rosenberg",
+            title: "DEA Director",
+            description: "Blackmailed with information he was hiding from his wife."
+        },
+        {
+            img: "http://www.wbcalaredo.org/wp-content/uploads/2015/08/pete_saenz.jpeg",
+            name: "Pete Saenz",
+            title: "Mayor of Laredo, TX",
+            description: "Blackmailed with all of his lies to the governor."
+        },
+        {
+            img: "https://gov.texas.gov/uploads/images/general/2015-GovernorAbbott-Portrait.jpg",
+            name: "Greg Abbott",
+            title: "Governor of Texas",
+            description: "Blackmailed with his own drug use."
+        }
+    ]
+})
