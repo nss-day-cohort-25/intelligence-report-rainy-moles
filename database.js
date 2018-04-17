@@ -41,8 +41,7 @@ rainyMolesDatabase.summary.push(
 )
 
 
-rainyMolesDatabase.financialInterests.push(
-    {
+rainyMolesDatabase.financialInterests = {
     bankAccounts: [{
             name: "Bank of America",
             link: "https://www.bankofamerica.com/"
@@ -58,18 +57,11 @@ rainyMolesDatabase.financialInterests.push(
     ]
 }, 
 {
-    businesses: {
-        bus1: "Drugs Drugs Drugs, Inc.",
-        bus2: "I Heart Cocaine, LLC.",
-        bus3: "Coke and Friends, LP."
-    }
+    businesses: ["Drugs Drugs Drugs, Inc.", "I Heart Cocaine, LLC.", "Coke and Friends, LP."]
 }, {
-    laundering: {
-        laund1: "Life Dry Cleaners",
-        laund2: "Stitch and Co. Tailoring Company",
-        laund3: "Drake Motel"
+    laundering: ["Life Dry Cleaners", "Stitch and Co. Tailoring Company", "Drake Motel" ]
     }
-}, {
+{
     blackmail: [{
             img: "https://upload.wikimedia.org/wikipedia/commons/7/73/Chuck_Rosenberg.jpg",
             name: "Chuck Rosenberg",
@@ -89,7 +81,7 @@ rainyMolesDatabase.financialInterests.push(
             description: "Blackmailed with his own drug use."
         }
     ]
-})
+}
 
 rainyMolesDatabase.newsFeed.push(
     {

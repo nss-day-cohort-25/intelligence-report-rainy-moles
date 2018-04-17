@@ -1,1 +1,3 @@
-JSON.parse(localStorage.getItem(rainyMolesDatabase))
+
+const rainyMolesDatabase = JSON.parse(localStorage.getItem("rainyMolesDatabase"))
+
