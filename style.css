@@ -224,10 +224,13 @@ li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 20px;
+    text-align: center;
 }
 
 .hl-span {
     margin: 20px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -235,28 +238,38 @@ li a:hover {
     text-align: center;
 }
 
-.hl-ul li {
-    list-style: none;
-    text-align: center;
-}
-
-.hl-ul {
-    text-align: center;
-    padding-right: 35px;
-}
 
 .hl-h1 {
     margin-top: 50px;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
-.hl-photo {
-    height: 350px;
-    width: 350px;
-    border: 1px solid black;
-    margin: auto;
-}
 
-.linkcolor {
+.hl-link {
     color: blue;
+}
+
+.hl-img {
+        height: 350px;
+        width: 350px;
+        border: 1px solid black;
+        position: relative;
+}
+
+.hl-laund {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.hl-oc {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.hl-ba {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
 }
