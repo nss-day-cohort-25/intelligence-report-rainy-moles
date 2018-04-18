@@ -26,7 +26,6 @@ rainyMolesDatabase.summary.push(
         
          
     
-    
      {
       Image: "https://s.hdnux.com/photos/04/52/43/1222889/3/920x920.jpg",
       Name: "Gerardo Alvarez-Vazquez",
@@ -43,9 +42,7 @@ rainyMolesDatabase.summary.push(
       Image: "https://i1.wp.com/www.pbs.org/wgbh/frontline/wp-content/uploads/2015/11/1441750516_AP_090312065379-1024x801.jpg",
       Name: "Joaquín Guzmán",
       Description: "In the past few years, Guzman has risen to become one of the most notorious drug lords in Mexico. Head of the Sinoloa Cartel, named off of the Mexican Pacific coast the State of Sinoloa where the Cartel was originally formed."
-      }            
-    
-)
+      }  ,         
 
 
 
