@@ -106,11 +106,15 @@ li a:hover {
       font-weight: bold;
       font-size: 40px;
       padding: 0;
-      margin: 40px 0 0 0;
+      margin: 40px 0 40px 0;
   }
   .associates {
       display: flex;
       justify-content: center;
+  }
+
+  .assoc-name {
+      text-align: center;
   }
 
   .dropdown {
