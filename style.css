@@ -106,11 +106,15 @@ li a:hover {
       font-weight: bold;
       font-size: 40px;
       padding: 0;
-      margin: 40px 0 0 0;
+      margin: 40px 0 40px 0;
   }
   .associates {
       display: flex;
       justify-content: center;
+  }
+
+  .assoc-name {
+      text-align: center;
   }
 
   .dropdown {
@@ -182,7 +186,8 @@ li a:hover {
 }
 
 .articlediv {
-    display: inline-block;
+    display:inline-block;
+    vertical-align:top;
     width: 33%;
     padding: 60px;
     box-sizing: border-box;
