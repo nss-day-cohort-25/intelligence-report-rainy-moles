@@ -139,7 +139,7 @@ rainyMolesDatabase.newsFeed.push(
     Rate: '8.3',
     Date: 'January 3, 2016',
     Location: 'LA',
-    Event: 'Background & Movie rights',
+    Event: 'Background',
     Victims: '23',
     Witnesses: '0',
     Law_Enforcement: 'None',
@@ -147,7 +147,7 @@ rainyMolesDatabase.newsFeed.push(
 {
     Image: 'img/mug-shot.jpg',
     Article: 'http://articles.latimes.com/2005/jun/10/world/fg-chief10',
-    Description: '4 decapitated bodies hung from bridge in Mexico',
+    Description: 'Mexican Police Chief Is Killed on His First Day',
     Rate: '7.2',
     Date: 'June 10, 2015',
     Location: 'Mexico City',

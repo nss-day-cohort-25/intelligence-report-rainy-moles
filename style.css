@@ -186,7 +186,8 @@ li a:hover {
 }
 
 .articlediv {
-    display: inline-block;
+    display:inline-block;
+    vertical-align:top;
     width: 33%;
     padding: 60px;
     box-sizing: border-box;
