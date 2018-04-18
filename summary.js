@@ -1,6 +1,6 @@
 const test = document.querySelector("#test")
 
-const buildSummary = () => {
+const buildProfile = () => {
 
     const container =  document.createElement('section')
                    container.classList.add("suspect-home")
@@ -43,34 +43,115 @@ const buildSummary = () => {
 
                           document.querySelector("#test").appendChild(container)
 
-
-
-                          
-// -----------------------
+// ----------Known Associates Title Div-------------
 const titleDiv = document.createElement("div")
-              titleDiv.classList = "associate-title"
+titleDiv.classList = "associate-title associates"
 const title = document.createElement("h2")
-              title.classList = "a-title Yrsa"
-              titleDiv.appendChild(title)
+title.classList = "a-title Yrsa"
+title.textContent = "Known Associates"
+titleDiv.appendChild(title)
 document.querySelector("#test").appendChild(titleDiv)
 
-//-------------------------------------
+//----------------End---------------------
+const divHolder = document.createElement("div")
+                  divHolder.classList = "associates"
+//--
+const dropDownDiv = document.createElement("div")
+                    dropDownDiv.classList = "dropdown"
+                    divHolder.appendChild(dropDownDiv)
+
+   const associateSpan = document.createElement("span")
+   const associateImage = document.createElement("img")
+   associateImage.classList = "img-size"
+   associateImage.src = rainyMolesDatabase.summary[1].Image 
+   associateSpan.appendChild(associateImage)
+   dropDownDiv.appendChild(associateSpan)
+
+   const contentDiv = document.createElement('div')
+                      contentDiv.classList = "dropdown-content"
+                      dropDownDiv.appendChild(contentDiv)
+    
+    const contentHeader = document.createElement('h2')
+                          contentHeader.classList = "assoc-name Yrsa"
+                          contentHeader.textContent = rainyMolesDatabase.summary[1].Name
+                          contentDiv.appendChild(contentHeader)
+
+    const contentDescription = document.createElement('p')
+                              contentDescription.classList = "descr Aldrich"
+                              contentDescription.textContent = rainyMolesDatabase.summary[1].Description
+                              contentDiv.appendChild(contentDescription)
+// --
+                    const dropDownDiv1 = document.createElement("div")
+                    dropDownDiv1.classList = "dropdown"
+                    divHolder.appendChild(dropDownDiv1)
+
+   const associateSpan1 = document.createElement("span")
+   const associateImage1 = document.createElement("img")
+   associateImage1.classList = "img-size"
+   associateImage1.src = rainyMolesDatabase.summary[2].Image 
+   associateSpan1.appendChild(associateImage1)
+   dropDownDiv1.appendChild(associateSpan1)
+
+   const contentDiv1 = document.createElement('div')
+                      contentDiv1.classList = "dropdown-content"
+                      dropDownDiv1.appendChild(contentDiv1)
+    
+    const contentHeader1 = document.createElement('h2')
+                          contentHeader1.classList = "assoc-name Yrsa"
+                          contentHeader1.textContent = rainyMolesDatabase.summary[2].Name
+                          contentDiv1.appendChild(contentHeader1)
+
+    const contentDescription1 = document.createElement('p')
+                              contentDescription1.classList = "descr Aldrich"
+                              contentDescription1.textContent = rainyMolesDatabase.summary[2].Description
+                              contentDiv1.appendChild(contentDescription1)
+// ---
+
+const dropDownDiv2 = document.createElement("div")
+                    dropDownDiv2.classList = "dropdown"
+                    divHolder.appendChild(dropDownDiv2)
+
+   const associateSpan2 = document.createElement("span")
+   const associateImage2 = document.createElement("img")
+   associateImage2.classList = "img-size"
+   associateImage2.src = rainyMolesDatabase.summary[3].Image 
+   associateSpan2.appendChild(associateImage2)
+   dropDownDiv2.appendChild(associateSpan2)
+
+   const contentDiv2 = document.createElement('div')
+                      contentDiv2.classList = "dropdown-content"
+                      dropDownDiv2.appendChild(contentDiv2)
+    
+    const contentHeader2 = document.createElement('h2')
+                          contentHeader2.classList = "assoc-name Yrsa"
+                          contentHeader2.textContent = rainyMolesDatabase.summary[3].Name
+                          contentDiv2.appendChild(contentHeader2)
+
+    const contentDescription2 = document.createElement('p')
+                              contentDescription2.classList = "descr Aldrich"
+                              contentDescription2.textContent = rainyMolesDatabase.summary[3].Description
+                              contentDiv2.appendChild(contentDescription2)
+
+  document.querySelector("#test").appendChild(divHolder)
+}
+buildProfile()
+                          
 
 
- const containerTwo = document.createElement('div')
-                      containerTwo.classList = "associates"
+
+
                       
 
 
 
-  }
-  document.querySelector("#test").appendChild(containerTwo)
-}
+  
+  
 
 
 
 
-buildSummary()    
+
+    
      
      
 
